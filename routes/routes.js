@@ -1,4 +1,4 @@
 module.exports = app =>{
-    app.route('/')
-            .get(app.api.api.hello)
+    app.route('/dados-login')
+            .get(app.api.api.teste)
 }
